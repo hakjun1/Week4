@@ -42,7 +42,7 @@ public class SumOfDigit {
         SumOfDigit sod = new SumOfDigit();
         int result1 = sod.solution2(1234);
 
-        if (result1 == 10) {
+        if (result1 == 10) {//1+2+3+4 = 10 임시로만든 조건문
             System.out.println("테스트 통과했습니다");
         } else {
             System.out.printf("테스트 실패 : %d \n",result1);
