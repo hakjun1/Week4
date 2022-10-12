@@ -13,7 +13,7 @@ public class Main_2081 {
         }
         int max = arr[0];
         int num = 0;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {//0번은 max값이므로 비교할 필요가 없다
             if (max < arr[i]) {
                 max = arr[i];
                 num = i;
