@@ -20,8 +20,8 @@ public class Buble {
 
     public static void main(String[] args) {
         int[] arr = new int[]{7, 2, 3, 9, 28, 11};
-        Buble bubblesort01 = new Buble();
-        for(int a : bubblesort01.sort(arr))
+        Buble buble = new Buble();
+        for(int a : buble.sort(arr))
             System.out.println(a);
     }
 }
